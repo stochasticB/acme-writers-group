@@ -19,7 +19,7 @@ function createRandomStory(){
     }
 }
 
-Array.from({length: 100}).forEach(()=>USERS.push(createRandomUser()))
-Array.from({length: 500}).forEach(()=>STORIES.push(createRandomStory()))
+Array.from({length: 5}).forEach(()=>USERS.push(createRandomUser()))
+Array.from({length: 25}).forEach(()=>STORIES.push(createRandomStory()))
 
 module.exports = { USERS, STORIES }
